@@ -27,13 +27,8 @@ function greet (name) {
  * if it should be true if your person object is at least 16 years old
  */
 
-var canDrive;
 
-if (person.age >=16) {
-  canDrive = true;
-} else {
-  canDrive = false;
-}
+var canDrive = (person.age >=16) ? true : false;
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
